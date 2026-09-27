@@ -13,6 +13,7 @@
 }
 
 * { box-sizing: border-box; }
+::selection { background: var(--yellow); color: var(--ink); }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: "DM Sans", sans-serif; }
 button, input { font: inherit; }
 button { cursor: pointer; border: 0; }
