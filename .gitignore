@@ -1,0 +1,100 @@
+# ================================
+# CareerPilot AI - .gitignore
+# ================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# ---------- Node / React / Next.js ----------
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+.next/
+out/
+dist/
+build/
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- IDE / Editors ----------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.iml
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------- Testing / Coverage ----------
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Database ----------
+*.sqlite
+*.sqlite3
+*.db
+
+# ---------- Temporary files ----------
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ---------- Uploaded / Generated files ----------
+uploads/
+generated/
+temp/
+
+# ---------- AI / ML generated data ----------
+models/
+checkpoints/
+embeddings/
+vectorstore/
+chroma/
+faiss_index/
+
+# ---------- Secrets / Keys ----------
+*.pem
+*.key
+credentials.json
+service-account.json
+
+# ---------- Local configuration ----------
+config.local.*
